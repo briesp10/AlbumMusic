@@ -1,0 +1,140 @@
+#panelHamburguesa{
+height: 100vh;
+width: 400px;
+position: fixed;
+top: 10vh;
+right: -1000px;
+transition: right .7s ease;
+background: rgba(250, 248, 248, 0.337);
+
+
+}
+
+#panelHamburguesa:target {
+     right: 0;
+
+}
+
+
+#panelHamburguesa:target header nav #abrir {
+  display: none;
+}
+
+
+
+#panelHamburguesa:target #cerrar {
+display: inline-block;
+
+}
+
+#panelHamburguesa a {
+  color: rgb(16, 15, 15);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Arial;
+  padding: 10px;
+}
+
+#panelHamburguesa a:hover {
+  color: #5e0303;
+}
+
+
+#arriba {
+background-color: rgba(255, 255, 255, 0.277);
+border-radius: 50%;
+padding: 15px;
+position: fixed;
+right: 15px;
+bottom: 15px;
+
+
+
+}
+
+body {
+background-image: url(img/G3QTuzGbA_1300x655__1.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+header{
+     background-color: rgba(0, 0, 0, 0.778);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 30px;
+     padding: 20px;
+     
+}
+
+img {
+     width: 400px;
+     height: 300px;
+}
+
+
+figcaption{
+     color: white;
+}
+
+h1 {
+color: white;     
+background-color: rgba(24, 3, 3, 0.31);
+text-align: center;
+margin: 10px;
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+p{
+color: white;    
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+a img{
+width: 60px;
+height: 60px;
+
+}
+
+#labanda{
+background-color: rgba(246, 242, 242, 0.695);
+text-align: justify;
+padding: 50px;
+color:rgb(14, 0, 0);
+width: 800px;
+margin: auto;
+display: flex;
+font-size: 30px;
+
+}
+
+main{
+text-align: center;
+background-color: rgba(163, 17, 19, 0.248);
+padding: 10px;
+
+}
+
+footer{
+background-color: rgba(0, 0, 0, 0);
+
+}
+
+#piedepagina {
+     text-align: center;
+     font-size: 15px;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+
