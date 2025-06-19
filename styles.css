@@ -6,13 +6,10 @@ top: 10vh;
 right: -1000px;
 transition: right .7s ease;
 background: rgba(250, 248, 248, 0.337);
-
-
 }
 
 #panelHamburguesa:target {
      right: 0;
-
 }
 
 
@@ -20,11 +17,8 @@ background: rgba(250, 248, 248, 0.337);
   display: none;
 }
 
-
-
 #panelHamburguesa:target #cerrar {
 display: inline-block;
-
 }
 
 #panelHamburguesa a {
@@ -42,7 +36,6 @@ display: inline-block;
   color: #5e0303;
 }
 
-
 #arriba {
 background-color: rgba(255, 255, 255, 0.277);
 border-radius: 50%;
@@ -50,9 +43,6 @@ padding: 15px;
 position: fixed;
 right: 15px;
 bottom: 15px;
-
-
-
 }
 
 body {
@@ -61,7 +51,6 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
-
 }
 
 header{
@@ -70,8 +59,7 @@ header{
      justify-content: center;
      align-items: center;
      height: 30px;
-     padding: 20px;
-     
+     padding: 20px;   
 }
 
 img {
@@ -79,6 +67,10 @@ img {
      height: 300px;
 }
 
+#fotoalbum{
+     width: 550px;
+     height: 550px;
+}
 
 figcaption{
      color: white;
@@ -91,20 +83,17 @@ text-align: center;
 margin: 10px;
 padding: 10px;
 font-family: 'Courier New', Courier, monospace;
-
 }
 
 p{
 color: white;    
 font-size: 20px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 a img{
 width: 60px;
 height: 60px;
-
 }
 
 #labanda{
@@ -116,19 +105,16 @@ width: 800px;
 margin: auto;
 display: flex;
 font-size: 30px;
-
 }
 
 main{
 text-align: center;
 background-color: rgba(163, 17, 19, 0.248);
 padding: 10px;
-
 }
 
 footer{
 background-color: rgba(0, 0, 0, 0);
-
 }
 
 #piedepagina {
