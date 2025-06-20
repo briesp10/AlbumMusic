@@ -19,17 +19,6 @@
       z-index: -1;
     }
 
-    .contenido {
-      position: relative;
-      z-index: 1;
-      color: white;
-      text-align: center;
-      top: 50%;
-      transform: translateY(-50%);
-      font-family: Arial, sans-serif;
-    }
-
-
 
 #panelHamburguesa{
 height: 100vh;
@@ -94,11 +83,12 @@ img {
 }
 
 #fotoalbum{
-     width: 400px;
-     height: 300px;
+     width: 550px;
+     height: 550px;
 }
 
 figcaption{
+    font-family: 'Bebas Neue', sans-serif;
      color: white;
 }
 
@@ -108,13 +98,13 @@ background-color: rgba(24, 3, 3, 0.31);
 text-align: center;
 margin: 10px;
 padding: 10px;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'Bebas Neue', sans-serif;
 }
 
 p{
 color: white;    
 font-size: 20px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Open Sans', serif;
 }
 
 a img{
@@ -131,6 +121,8 @@ width: 800px;
 margin: auto;
 display: flex;
 font-size: 30px;
+font-family: 'Open Sans', serif;
+
 }
 
 main{
@@ -139,14 +131,32 @@ background-color: rgba(163, 17, 19, 0.248);
 padding: 10px;
 }
 
-footer{
-background-color: rgba(0, 0, 0, 0);
+
+footer {
+  background-color: rgba(10, 10, 10, 0.8);
+  color: #fff;
+  padding: 40px 20px;
+  border-top: 2px solid #f9627d;
+  text-align: center;
 }
 
-#piedepagina {
-     text-align: center;
-     font-size: 15px;
-     font-family: 'Times New Roman', Times, serif;
+footer h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 10px;
 }
+
+footer p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+footer a img {
+padding: 15px;
+
+}
+
+
 
 
